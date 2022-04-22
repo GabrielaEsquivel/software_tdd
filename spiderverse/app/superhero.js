@@ -1,7 +1,7 @@
 class Spiderman{
     constructor(name, age, actor, numberOfMovies, filmStudio){
         this.nameHero = name;
-        this.ae = age;
+        this.age = age;
         this.actor = actor;
         this.numberOfMovies = numberOfMovies;
         this.filmStudio = filmStudio;
