@@ -9,5 +9,10 @@ describe("Unit Case For Superman Class", ()=>{
 
 
         expect().toBe()
+    }),
+    test('2) Case test: Test GetInfo() function', () => {
+        const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 14, "Sony") ;
+        expect(andrewGarfield.getInfo()).toBe("Hey, I'm Andrew Garfield from Sony");
+        expect().toBe()
     })
 })
